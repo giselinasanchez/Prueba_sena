@@ -1,0 +1,153 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f7f7f7;
+}
+
+#contenedor-principal {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 0;
+	color: #333;
+}
+
+p {
+	font-size: 18px;
+	margin: 0;
+	color: #666;
+}
+
+#info-pueblo {
+	margin-bottom: 40px;
+}
+
+#info-pueblo h2 {
+	font-size: 36px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+#info-pueblo p {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #666;
+}
+
+#galeria {
+	margin-bottom: 40px;
+}
+
+#galeria h2 {
+	font-size: 36px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+#galeria img {
+	max-width: 100%;
+	margin-bottom: 20px;
+
+}
+    #historia {
+        margin-bottom: 40px;
+    }
+    
+    #historia h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    #historia p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 20px;
+    }
+    
+    #historia img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #gastronomia {
+        margin-bottom: 40px;
+    }
+    
+    #gastronomia h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    #gastronomia p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 20px;
+    }
+    
+    #gastronomia img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #turismo {
+        margin-bottom: 40px;
+    }
+    
+    #turismo h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    #turismo p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 20px;
+    }
+    
+    #turismo img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    iframe {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        h1 {
+            font-size: 36px;
+        }
+    
+        #info-pueblo h2,
+        #galeria h2,
+        #historia h2,
+        #gastronomia h2,
+        #turismo h2 {
+            font-size: 24px;
+        }
+    
+        iframe {
+            width: 100%;
+            height: 200px;
+        }
+    }
+    
